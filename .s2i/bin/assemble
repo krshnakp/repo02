@@ -41,3 +41,7 @@ fi
 fix-permissions ./
 
 echo "This is again customization ---- cprakash " > ./info.html
+#cp -Rf /tmp/src/*.html  ./
+DATE=$(date "+%F")
+echo "Adding line"
+echo "$DATE Line to be added" << ./info.html
